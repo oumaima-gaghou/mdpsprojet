@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Générateur de mot de passe</title>
+  <link rel="stylesheet" href="mdps.css">
+</head>
+<body>
+    <div class="container">
+
+  <h1>🔐 Générateur de mot de passe</h1>
+
+  <label for="length">Longeur du Mot de Passe :</label>
+    <input type="number" id="length" min="12" max="128" value="16">
+  </label>
+<button id="generate">Générer le Mot de Passe</button>
+<div class="resultat">
+    <h3>Mot de Passe Généré :</h3>
+    <p id="password"></p>
+</div>
+    </div>
+
+  <script src="mdps.js"></script>
+</body>
+</html>
